@@ -7,7 +7,7 @@ const HomePage = () => {
         <div className="bg-white">
          
          {/* py-20 lg:py-32 */}
-            <section className="relative  "> 
+            <section className="relative mt-8 "> 
                 <div className="container mx-auto px-6 text-center relative z-10">
                     <h1 className="text-5xl md:text-5xl font-extrabold text-slate-900 mb-6 leading-tight">
                         Find Your <span className="text-green-500">Next Read</span>

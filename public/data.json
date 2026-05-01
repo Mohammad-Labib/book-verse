@@ -1,110 +1,110 @@
 [
   {
     "id": 1,
-    "title": "The Midnight Library",
-    "author": "Matt Haig",
-    "description": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived.",
+    "title": "The Hidden River",
+    "author": "Arif Rahman",
+    "description": "A mysterious journey along a river that hides ancient secrets and forgotten civilizations.",
     "category": "Story",
-    "available_quantity": 5,
-    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602193703i/52578297.jpg"
+    "available_quantity": 10,
+    "image_url": "/images/books/hidden-river.jpg"
   },
   {
     "id": 2,
-    "title": "Eloquent JavaScript",
-    "author": "Marijn Haverbeke",
-    "description": "A modern introduction to programming. This book provides a comprehensive guide to JavaScript, from basic structures to complex applications.",
+    "title": "Modern JavaScript Mastery",
+    "author": "John Carter",
+    "description": "A complete guide to mastering modern JavaScript concepts and best practices.",
     "category": "Tech",
     "available_quantity": 8,
-    "image_url": "https://learning.oreilly.com/library/cover/9781492041123/"
+    "image_url": "/images/books/js-mastery.jpg"
   },
   {
     "id": 3,
-    "title": "A Brief History of Time",
-    "author": "Stephen Hawking",
-    "description": "A landmark volume in science writing by one of the great minds of our time, exploring the origins and evolution of the universe.",
+    "title": "The Universe Explained",
+    "author": "Dr. Sarah Khan",
+    "description": "An introduction to the mysteries of space, galaxies, and cosmic phenomena.",
     "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://m.media-amazon.com/images/I/91PU94YhA+L._AC_UF1000,1000_QL80_.jpg"
+    "available_quantity": 6,
+    "image_url": "/images/books/universe-explained.jpg"
   },
   {
     "id": 4,
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "description": "A handbook of agile software craftsmanship. Learn how to write code that is easy to read, maintain, and scale.",
-    "category": "Tech",
+    "title": "Echoes of Time",
+    "author": "Nadia Karim",
+    "description": "A story that connects past and present through emotional storytelling.",
+    "category": "Story",
     "available_quantity": 12,
-    "image_url": "https://m.media-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg"
+    "image_url": "/images/books/echoes-time.jpg"
   },
   {
     "id": 5,
-    "title": "The Alchemist",
-    "author": "Paulo Coelho",
-    "description": "A magical story about Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure.",
-    "category": "Story",
+    "title": "React in Depth",
+    "author": "Michael Lee",
+    "description": "Deep dive into React concepts, hooks, and state management.",
+    "category": "Tech",
     "available_quantity": 7,
-    "image_url": "https://m.media-amazon.com/images/I/51Z0nLAfLmL.jpg"
+    "image_url": "/images/books/react-depth.jpg"
   },
   {
     "id": 6,
-    "title": "Cosmos",
-    "author": "Carl Sagan",
-    "description": "An exploration of the 15 billion years of cosmic evolution that have transformed matter into consciousness.",
+    "title": "Quantum Physics Basics",
+    "author": "Dr. Hasan Uddin",
+    "description": "Understanding the fundamentals of quantum physics in simple terms.",
     "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://m.media-amazon.com/images/I/91XqKxXn9ML._AC_UF1000,1000_QL80_.jpg"
+    "available_quantity": 5,
+    "image_url": "/images/books/quantum-basics.jpg"
   },
   {
     "id": 7,
-    "title": "The Pragmatic Programmer",
-    "author": "Andrew Hunt",
-    "description": "A journey from journeyman to master. This book covers topics ranging from personal responsibility and career development to architectural techniques.",
-    "category": "Tech",
-    "available_quantity": 10,
-    "image_url": "https://m.media-amazon.com/images/I/41HIn9m9pQL._SX396_BO1,204,203,200_.jpg"
+    "title": "Lost in the Mountains",
+    "author": "Sabbir Hossain",
+    "description": "An adventurous survival story in the deep mountains.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "/images/books/lost-mountains.jpg"
   },
   {
     "id": 8,
-    "title": "Great Expectations",
-    "author": "Charles Dickens",
-    "description": "A classic story following the childhood and young adult years of Pip, a medium-born orphan who comes into a large fortune.",
-    "category": "Story",
-    "available_quantity": 6,
-    "image_url": "https://m.media-amazon.com/images/I/91mZf9C7NGL._AC_UF1000,1000_QL80_.jpg"
+    "title": "Next.js Complete Guide",
+    "author": "Emma Watson",
+    "description": "Learn full-stack development using Next.js framework.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url": "/images/books/nextjs-guide.jpg"
   },
   {
     "id": 9,
-    "title": "The Selfish Gene",
-    "author": "Richard Dawkins",
-    "description": "A brilliant and influential book that explains the gene-centered view of evolution.",
+    "title": "Human Body Systems",
+    "author": "Dr. Lina Roy",
+    "description": "A detailed overview of how human body systems work together.",
     "category": "Science",
-    "available_quantity": 2,
-    "image_url": "https://m.media-amazon.com/images/I/71Yv0-I-m+L._AC_UF1000,1000_QL80_.jpg"
+    "available_quantity": 4,
+    "image_url": "/images/books/human-body.jpg"
   },
   {
     "id": 10,
-    "title": "Learning React",
-    "author": "Alex Banks",
-    "description": "A guide to building user interfaces with React, including hooks, functional components, and state management.",
-    "category": "Tech",
-    "available_quantity": 15,
-    "image_url": "https://m.media-amazon.com/images/I/91fSIn8N9XL.jpg"
+    "title": "Midnight Tales",
+    "author": "Farhana Islam",
+    "description": "Short mysterious stories that unfold at midnight.",
+    "category": "Story",
+    "available_quantity": 13,
+    "image_url": "/images/books/midnight-tales.jpg"
   },
   {
     "id": 11,
-    "title": "The Kite Runner",
-    "author": "Khaled Hosseini",
-    "description": "A powerful story of friendship and redemption set against the backdrop of a changing Afghanistan.",
-    "category": "Story",
-    "available_quantity": 9,
-    "image_url": "https://m.media-amazon.com/images/I/81CAXf9p0KL._AC_UF1000,1000_QL80_.jpg"
+    "title": "Node.js Backend Development",
+    "author": "David Kim",
+    "description": "Build scalable backend applications using Node.js.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "/images/books/nodejs-backend.jpg"
   },
   {
     "id": 12,
-    "title": "Sapiens",
-    "author": "Yuval Noah Harari",
-    "description": "A brief history of humankind, exploring how biology and history have defined us and enhanced our understanding of what it means to be human.",
+    "title": "Climate and Environment",
+    "author": "Dr. Kamal Uddin",
+    "description": "Understanding climate change and environmental impact.",
     "category": "Science",
-    "available_quantity": 11,
-    "image_url": "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg"
+    "available_quantity": 5,
+    "image_url": "/images/books/climate-environment.jpg"
   }
 ]

@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Banner from "@/components/shared/Banner";
 import Footer from "@/components/shared/Footer";
+import FeaturedBooks from "@/components/shared/FeaturedBooks";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,8 +29,13 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
 
         <Navbar></Navbar>
-        {children}
+       <main className="container mx-auto">
+         {children}
         <Banner></Banner>
+        <FeaturedBooks></FeaturedBooks>
+       </main>
+        
+
         <Footer></Footer>
 
         </body>
