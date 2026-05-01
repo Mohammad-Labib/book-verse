@@ -3,108 +3,108 @@
     "id": 1,
     "title": "The Hidden River",
     "author": "Arif Rahman",
-    "description": "A mysterious journey along a river that hides ancient secrets and forgotten civilizations.",
+    "description": "A mysterious journey through a forgotten river that changes the fate of a small village.",
     "category": "Story",
-    "available_quantity": 10,
-    "image_url": "/images/books/hidden-river.jpg"
+    "available_quantity": 5,
+    "image_url": "https://example.com/images/hidden-river.jpg"
   },
   {
     "id": 2,
-    "title": "Modern JavaScript Mastery",
-    "author": "John Carter",
-    "description": "A complete guide to mastering modern JavaScript concepts and best practices.",
-    "category": "Tech",
+    "title": "Echoes of Time",
+    "author": "Nadia Karim",
+    "description": "A historical fiction exploring love and loss across different eras.",
+    "category": "Story",
     "available_quantity": 8,
-    "image_url": "/images/books/js-mastery.jpg"
+    "image_url": "https://example.com/images/echoes-time.jpg"
   },
   {
     "id": 3,
-    "title": "The Universe Explained",
-    "author": "Dr. Sarah Khan",
-    "description": "An introduction to the mysteries of space, galaxies, and cosmic phenomena.",
-    "category": "Science",
-    "available_quantity": 6,
-    "image_url": "/images/books/universe-explained.jpg"
+    "title": "JavaScript Mastery",
+    "author": "John Doe",
+    "description": "A complete guide to mastering JavaScript from basics to advanced concepts.",
+    "category": "Tech",
+    "available_quantity": 12,
+    "image_url": "https://example.com/images/js-mastery.jpg"
   },
   {
     "id": 4,
-    "title": "Echoes of Time",
-    "author": "Nadia Karim",
-    "description": "A story that connects past and present through emotional storytelling.",
-    "category": "Story",
-    "available_quantity": 12,
-    "image_url": "/images/books/echoes-time.jpg"
+    "title": "AI Revolution",
+    "author": "Sarah Khan",
+    "description": "An insight into how artificial intelligence is shaping the future.",
+    "category": "Tech",
+    "available_quantity": 7,
+    "image_url": "https://example.com/images/ai-revolution.jpg"
   },
   {
     "id": 5,
-    "title": "React in Depth",
-    "author": "Michael Lee",
-    "description": "Deep dive into React concepts, hooks, and state management.",
-    "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "/images/books/react-depth.jpg"
+    "title": "Quantum World",
+    "author": "Dr. Albert Ray",
+    "description": "Understanding the strange and fascinating world of quantum physics.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://example.com/images/quantum-world.jpg"
   },
   {
     "id": 6,
-    "title": "Quantum Physics Basics",
-    "author": "Dr. Hasan Uddin",
-    "description": "Understanding the fundamentals of quantum physics in simple terms.",
+    "title": "The Human Brain",
+    "author": "Lisa Morgan",
+    "description": "A deep dive into neuroscience and how the human brain works.",
     "category": "Science",
-    "available_quantity": 5,
-    "image_url": "/images/books/quantum-basics.jpg"
+    "available_quantity": 6,
+    "image_url": "https://example.com/images/human-brain.jpg"
   },
   {
     "id": 7,
-    "title": "Lost in the Mountains",
-    "author": "Sabbir Hossain",
-    "description": "An adventurous survival story in the deep mountains.",
+    "title": "Lost Memories",
+    "author": "Tanvir Hasan",
+    "description": "A touching story about rediscovering forgotten pasts.",
     "category": "Story",
-    "available_quantity": 9,
-    "image_url": "/images/books/lost-mountains.jpg"
+    "available_quantity": 10,
+    "image_url": "https://example.com/images/lost-memories.jpg"
   },
   {
     "id": 8,
-    "title": "Next.js Complete Guide",
-    "author": "Emma Watson",
-    "description": "Learn full-stack development using Next.js framework.",
+    "title": "Modern Web Development",
+    "author": "Emily Stone",
+    "description": "Learn modern tools and frameworks for web development.",
     "category": "Tech",
-    "available_quantity": 11,
-    "image_url": "/images/books/nextjs-guide.jpg"
+    "available_quantity": 9,
+    "image_url": "https://example.com/images/web-dev.jpg"
   },
   {
     "id": 9,
-    "title": "Human Body Systems",
-    "author": "Dr. Lina Roy",
-    "description": "A detailed overview of how human body systems work together.",
+    "title": "Space Exploration",
+    "author": "Neil Armstrong Jr.",
+    "description": "A journey through the history and future of space travel.",
     "category": "Science",
-    "available_quantity": 4,
-    "image_url": "/images/books/human-body.jpg"
+    "available_quantity": 3,
+    "image_url": "https://example.com/images/space-exploration.jpg"
   },
   {
     "id": 10,
-    "title": "Midnight Tales",
-    "author": "Farhana Islam",
-    "description": "Short mysterious stories that unfold at midnight.",
+    "title": "The Silent Forest",
+    "author": "Rafiq Islam",
+    "description": "A dramatic tale of survival in a mysterious forest.",
     "category": "Story",
-    "available_quantity": 13,
-    "image_url": "/images/books/midnight-tales.jpg"
+    "available_quantity": 6,
+    "image_url": "https://example.com/images/silent-forest.jpg"
   },
   {
     "id": 11,
-    "title": "Node.js Backend Development",
-    "author": "David Kim",
-    "description": "Build scalable backend applications using Node.js.",
+    "title": "Cyber Security Basics",
+    "author": "Mark Wilson",
+    "description": "An introduction to protecting systems and data from cyber threats.",
     "category": "Tech",
-    "available_quantity": 6,
-    "image_url": "/images/books/nodejs-backend.jpg"
+    "available_quantity": 11,
+    "image_url": "https://example.com/images/cyber-security.jpg"
   },
   {
     "id": 12,
-    "title": "Climate and Environment",
-    "author": "Dr. Kamal Uddin",
-    "description": "Understanding climate change and environmental impact.",
+    "title": "Ocean Mysteries",
+    "author": "Dr. Helen Park",
+    "description": "Exploring the unknown depths and creatures of the ocean.",
     "category": "Science",
     "available_quantity": 5,
-    "image_url": "/images/books/climate-environment.jpg"
+    "image_url": "https://example.com/images/ocean-mysteries.jpg"
   }
 ]
