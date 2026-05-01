@@ -2,6 +2,7 @@
 import React from 'react';
 import { Card } from "@heroui/react";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const BookCard = ({book}) => {
     console.log(book);
@@ -21,9 +22,11 @@ const BookCard = ({book}) => {
                 <h2>{book.title}</h2>
             </div>
 
-           <button className="w-full border font-semibold border-gray-500 text-gray-700 px-4 py-2 rounded-full">
+           <Link href={`/all-books/${book.id}`}>
+           <button className="w-full border font-semibold border-gray-500 text-gray-700 bg-amber-500 px-4 py-2 rounded-full">
             View Details
         </button>
+           </Link>
         </Card>
     );
 };

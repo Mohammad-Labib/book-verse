@@ -1,110 +1,110 @@
 [
   {
     "id": 1,
-    "title": "The Hidden River",
-    "author": "Arif Rahman",
-    "description": "A mysterious journey through a forgotten river that changes the fate of a small village.",
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "description": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived.",
     "category": "Story",
     "available_quantity": 5,
-    "image_url": "https://example.com/images/hidden-river.jpg"
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602193703i/52578297.jpg"
   },
   {
     "id": 2,
-    "title": "Echoes of Time",
-    "author": "Nadia Karim",
-    "description": "A historical fiction exploring love and loss across different eras.",
-    "category": "Story",
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "description": "A modern introduction to programming. This book provides a comprehensive guide to JavaScript, from basic structures to complex applications.",
+    "category": "Tech",
     "available_quantity": 8,
-    "image_url": "https://example.com/images/echoes-time.jpg"
+    "image_url": "https://m.media-amazon.com/images/I/81Hq9ggiKRL.jpg"
   },
   {
     "id": 3,
-    "title": "JavaScript Mastery",
-    "author": "John Doe",
-    "description": "A complete guide to mastering JavaScript from basics to advanced concepts.",
-    "category": "Tech",
-    "available_quantity": 12,
-    "image_url": "https://example.com/images/js-mastery.jpg"
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "A landmark volume in science writing by one of the great minds of our time, exploring the origins and evolution of the universe.",
+    "category": "Science",
+    "available_quantity": 3,
+    "image_url": "https://m.media-amazon.com/images/I/91PU94YhA+L._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "id": 4,
-    "title": "AI Revolution",
-    "author": "Sarah Khan",
-    "description": "An insight into how artificial intelligence is shaping the future.",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A handbook of agile software craftsmanship. Learn how to write code that is easy to read, maintain, and scale.",
     "category": "Tech",
-    "available_quantity": 7,
-    "image_url": "https://example.com/images/ai-revolution.jpg"
+    "available_quantity": 12,
+    "image_url": "https://m.media-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg"
   },
   {
     "id": 5,
-    "title": "Quantum World",
-    "author": "Dr. Albert Ray",
-    "description": "Understanding the strange and fascinating world of quantum physics.",
-    "category": "Science",
-    "available_quantity": 4,
-    "image_url": "https://example.com/images/quantum-world.jpg"
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A magical story about Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://m.media-amazon.com/images/I/51Z0nLAfLmL.jpg"
   },
   {
     "id": 6,
-    "title": "The Human Brain",
-    "author": "Lisa Morgan",
-    "description": "A deep dive into neuroscience and how the human brain works.",
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "description": "An exploration of the 15 billion years of cosmic evolution that have transformed matter into consciousness.",
     "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://example.com/images/human-brain.jpg"
+    "available_quantity": 4,
+    "image_url": "https://m.media-amazon.com/images/I/91XqKxXn9ML._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "id": 7,
-    "title": "Lost Memories",
-    "author": "Tanvir Hasan",
-    "description": "A touching story about rediscovering forgotten pasts.",
-    "category": "Story",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "description": "A journey from journeyman to master. This book covers topics ranging from personal responsibility and career development to architectural techniques.",
+    "category": "Tech",
     "available_quantity": 10,
-    "image_url": "https://example.com/images/lost-memories.jpg"
+    "image_url": "https://m.media-amazon.com/images/I/41HIn9m9pQL._SX396_BO1,204,203,200_.jpg"
   },
   {
     "id": 8,
-    "title": "Modern Web Development",
-    "author": "Emily Stone",
-    "description": "Learn modern tools and frameworks for web development.",
-    "category": "Tech",
-    "available_quantity": 9,
-    "image_url": "https://example.com/images/web-dev.jpg"
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "description": "A classic story following the childhood and young adult years of Pip, a medium-born orphan who comes into a large fortune.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://m.media-amazon.com/images/I/91mZf9C7NGL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "id": 9,
-    "title": "Space Exploration",
-    "author": "Neil Armstrong Jr.",
-    "description": "A journey through the history and future of space travel.",
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "A brilliant and influential book that explains the gene-centered view of evolution.",
     "category": "Science",
-    "available_quantity": 3,
-    "image_url": "https://example.com/images/space-exploration.jpg"
+    "available_quantity": 2,
+    "image_url": "https://m.media-amazon.com/images/I/71Yv0-I-m+L._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "id": 10,
-    "title": "The Silent Forest",
-    "author": "Rafiq Islam",
-    "description": "A dramatic tale of survival in a mysterious forest.",
-    "category": "Story",
-    "available_quantity": 6,
-    "image_url": "https://example.com/images/silent-forest.jpg"
+    "title": "Learning React",
+    "author": "Alex Banks",
+    "description": "A guide to building user interfaces with React, including hooks, functional components, and state management.",
+    "category": "Tech",
+    "available_quantity": 15,
+    "image_url": "https://m.media-amazon.com/images/I/91fSIn8N9XL.jpg"
   },
   {
     "id": 11,
-    "title": "Cyber Security Basics",
-    "author": "Mark Wilson",
-    "description": "An introduction to protecting systems and data from cyber threats.",
-    "category": "Tech",
-    "available_quantity": 11,
-    "image_url": "https://example.com/images/cyber-security.jpg"
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "description": "A powerful story of friendship and redemption set against the backdrop of a changing Afghanistan.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://m.media-amazon.com/images/I/81CAXf9p0KL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "id": 12,
-    "title": "Ocean Mysteries",
-    "author": "Dr. Helen Park",
-    "description": "Exploring the unknown depths and creatures of the ocean.",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "description": "A brief history of humankind, exploring how biology and history have defined us and enhanced our understanding of what it means to be human.",
     "category": "Science",
-    "available_quantity": 5,
-    "image_url": "https://example.com/images/ocean-mysteries.jpg"
+    "available_quantity": 11,
+    "image_url": "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg"
   }
 ]

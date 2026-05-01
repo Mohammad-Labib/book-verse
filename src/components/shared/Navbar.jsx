@@ -16,7 +16,7 @@ const Navbar = () => {
                 <li><Link href={"/all-books"}>All Books</Link></li>
                 <li><Link href={"/profile"}>My Profile</Link></li>
             </ul>
-
+{/* {book.author} */}
              <div className='flex items-center gap-2'>
                 <h1 className='font-semibold'> I m here</h1>
             <Image src={userImage} alt="user-image" width={60} height={60}></Image>
