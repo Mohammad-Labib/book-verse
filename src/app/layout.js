@@ -4,6 +4,7 @@ import Navbar from "@/components/shared/Navbar";
 import Banner from "@/components/shared/Banner";
 import Footer from "@/components/shared/Footer";
 import FeaturedBooks from "@/components/shared/FeaturedBooks";
+import UseMarquee from "@/components/shared/UseMarquee";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <Navbar></Navbar>
        <main className="container mx-auto">
          {children}
+         <UseMarquee></UseMarquee>
         <Banner></Banner>
         <FeaturedBooks></FeaturedBooks>
        </main>
