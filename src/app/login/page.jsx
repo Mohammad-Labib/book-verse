@@ -2,6 +2,8 @@
 
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 import {
   Button,
   Description,
@@ -13,32 +15,60 @@ import {
 } from "@heroui/react";
 
 export default function LoginPage() {
-  const onSubmit = async (e) => {
-    e.preventDefault();
+    const onSubmit = async (e) =>{
+        e.preventDefault();
 
-    const email = e.target.email.value;
-    const password = e.target.password.value;
+        const email = e.target.email.value;
+        const password = e.target.password.value;
 
-     const { data, error } = await authClient.login.email({
-        email,
-        password,
-      });
-    }
+        const {data, error} = await authClient.signUp.email({
+            email,
+            password,
+
+        })
+        console.log({data, error});
+        };
+
+    
+
+//   const router = useRouter();
+//   const [loading, setLoading] = useState(false);
+
+//   const onSubmit = async (e) => {
+//     e.preventDefault();
+//     setLoading(true);
+
+//     const formData = new FormData(e.currentTarget);
+//     const email = formData.get("email");
+//     const password = formData.get("password");
+
+//     // সঠিক মেথড: signIn.email
+//     const { data, error } = await authClient.signIn.email({
+//       email,
+//       password,
+//     });
+// console.log({data, error});
+//     if (error) {
+//       alert(error.message || "Login failed");
+//       setLoading(false);
+//     } else {
+     
+//       router.push("/home");
+//     }
+//   };
+
   return (
     <div className="flex justify-center mt-6 items-center bg-base-100">
       <Form
         className="flex w-96 flex-col gap-4 p-6 border rounded-xl shadow-md"
         onSubmit={onSubmit}
       >
-        {/* Email */}
         <TextField
           isRequired
           name="email"
           type="email"
           validate={(value) => {
-            if (
-              !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value)
-            ) {
+            if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value)) {
               return "Please enter a valid email address";
             }
             return null;
@@ -49,39 +79,32 @@ export default function LoginPage() {
           <FieldError />
         </TextField>
 
-        {/* Password */}
         <TextField
           isRequired
           minLength={4}
           name="password"
           type="password"
+       
           validate={(value) => {
             if (value.length < 4) {
-              return "Password must be at least 4 digits";
+              return "Password must be at least 4 characters";
             }
-
-            if (!/^[0-9]+$/.test(value)) {
-              return "Password must contain only numbers (0-9)";
-            }
-
             return null;
           }}
         >
           <Label>Password</Label>
-          <Input placeholder="Enter numeric password" />
+          <Input placeholder="Enter your password" />
           <Description>
-            Only numbers allowed (minimum 4 digits)
+            Minimum 4 characters required
           </Description>
           <FieldError />
         </TextField>
 
-        {/* Buttons */}
         <div className="flex gap-2">
           <Button type="submit">
-            <Check />
-            Submit
+            <Check /> Submit
           </Button>
-          <Button type="reset" variant="secondary">
+          <Button type="reset">
             Reset
           </Button>
         </div>
