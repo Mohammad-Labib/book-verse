@@ -1,5 +1,6 @@
 import { Card } from '@heroui/react';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const booksDatailspage =async ({params}) => {
@@ -13,7 +14,8 @@ const booksDatailspage =async ({params}) => {
     console.log(books);
     return (
         <>
-  <div className="card bg-base-100 w-96 shadow-md   rounded-2xl ">
+ <div className='flex justify-center items-center gap-6 '>
+   <div className="card bg-base-100 w-96 shadow-md   rounded-2xl ">
 
 
   <figure className="px-4 pt-4">
@@ -56,14 +58,31 @@ const booksDatailspage =async ({params}) => {
     </p>
 
    
-    <div className="card-actions justify-end mt-3">
-      <button className="btn btn-outline bg-amber-300 p-2 rounded-full w-full">
-        Buy Now
-      </button>
-    </div>
+   
 
   </div>
 </div>
+
+<div className="flex flex-col justify-center px-6 py-4 w-150 h-60 bg-green-200 shadow rounded-lg gap-2">
+  
+  <span className="font-bold text-2xl">
+    Description:
+  </span>
+
+  <p className="text-gray-700 leading-relaxed">
+    {book.description}
+  </p>
+
+ <div className="card-actions justify-end mt-3">
+  <Link href="/login" className="w-full">
+    <button className="btn btn-outline bg-amber-300 font-semibold text-gray-500 p-2 rounded-md w-40">
+      Read More...
+    </button>
+  </Link>
+</div>
+
+</div>
+ </div>
         </>
     );
 };
