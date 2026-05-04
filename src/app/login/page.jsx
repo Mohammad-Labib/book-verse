@@ -13,49 +13,50 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 
 export default function LoginPage() {
-    const onSubmit = async (e) =>{
-        e.preventDefault();
+    // const onSubmit = async (e) =>{
+    //     e.preventDefault();
 
-        const email = e.target.email.value;
-        const password = e.target.password.value;
+    //     const email = e.target.email.value;
+    //     const password = e.target.password.value;
 
-        const {data, error} = await authClient.signUp.email({
-            email,
-            password,
+    //     const {data, error} = await authClient.signUp.email({
+    //         email,
+    //         password,
 
-        })
-        console.log({data, error});
-        };
+    //     })
+    //     console.log({data, error});
+    //     };
 
     
 
-//   const router = useRouter();
-//   const [loading, setLoading] = useState(false);
+  const router = useRouter();
+  const [loading, setLoading] = useState(false);
 
-//   const onSubmit = async (e) => {
-//     e.preventDefault();
-//     setLoading(true);
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
 
-//     const formData = new FormData(e.currentTarget);
-//     const email = formData.get("email");
-//     const password = formData.get("password");
+    const formData = new FormData(e.currentTarget);
+    const email = formData.get("email");
+    const password = formData.get("password");
 
-//     // সঠিক মেথড: signIn.email
-//     const { data, error } = await authClient.signIn.email({
-//       email,
-//       password,
-//     });
-// console.log({data, error});
-//     if (error) {
-//       alert(error.message || "Login failed");
-//       setLoading(false);
-//     } else {
+    
+    const { data, error } = await authClient.signIn.email({
+      email,
+      password,
+    });
+console.log({data, error});
+    if (error) {
+      alert(error.message || "Login failed");
+      setLoading(false);
+    } else {
      
-//       router.push("/home");
-//     }
-//   };
+      router.push("/home");
+    }
+  };
 
   return (
     <div className="flex justify-center mt-6 items-center bg-base-100">
@@ -102,11 +103,19 @@ export default function LoginPage() {
 
         <div className="flex gap-2">
           <Button type="submit">
-            <Check /> Submit
+            Login
           </Button>
-          <Button type="reset">
-            Reset
-          </Button>
+         
+        </div>
+
+        <div>
+          <h1>Not regitered create account
+            <span className="text-blue-400">
+             <Link href="/register" className="text-blue-500 font-semibold hover:underline">
+          Register here
+        </Link>
+            </span>
+          </h1>
         </div>
       </Form>
     </div>
