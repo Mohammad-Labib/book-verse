@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container mx-auto px-6 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
                     
-                    {/* Brand Section */}
+                 
                     <div className="col-span-1 md:col-span-1">
                         <h1 className='font-bold text-2xl mb-4'>
                             BOOK<span className='text-green-500'>VERSE</span>
@@ -17,7 +17,7 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    {/* Quick Links */}
+         
                     <div>
                         <h2 className="font-bold text-slate-800 mb-4 uppercase tracking-wider text-sm">Quick Links</h2>
                         <ul className="space-y-3 text-slate-600 text-sm">
@@ -27,7 +27,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Support & Legal */}
+        
                     <div>
                         <h2 className="font-bold text-slate-800 mb-4 uppercase tracking-wider text-sm">Support</h2>
                         <ul className="space-y-3 text-slate-600 text-sm">
@@ -37,13 +37,12 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Contact Info */}
                     <div>
                         <h2 className="font-bold text-slate-800 mb-4 uppercase tracking-wider text-sm">Contact</h2>
-                        <p className="text-slate-600 text-sm mb-2">University of Scholars, Dhaka</p>
+                        <p className="text-slate-600 text-sm mb-2">contact</p>
                         <p className="text-slate-600 text-sm mb-4 italic">Spread knowledge everywhere.</p>
                         <div className="flex gap-4">
-                            {/* Social Icons (Placeholder) */}
+                    
                             <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center text-green-600 hover:bg-green-500 hover:text-white transition-all cursor-pointer">
                                 <i className="fab fa-facebook-f text-xs"></i>
                             </div>

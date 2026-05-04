@@ -18,7 +18,7 @@ const UseMarquee = async () => {
         <Marquee pauseOnHover={true} speed={50}>
           {bookMarquee.map((book) => (
             <span key={book.id} className="mx-2 whitespace-nowrap">
-               {book.title}
+               {book.title} |
             </span>
           ))}
         </Marquee>

@@ -12,7 +12,7 @@ const Navbar = () => {
     const userData = authClient.useSession();
     const user = userData.data?.user;
 
-    // Logout Handle Function
+    
     const handleLogout = async () => {
         await authClient.signOut({
             fetchOptions: {
@@ -40,7 +40,7 @@ const Navbar = () => {
                 {!user ? (
                
                     <div className='flex items-center gap-2'>
-                        <h1 className='font-semibold text-sm'>Guest</h1>
+                        <h1 className='font-semibold text-sm'> I am here</h1>
                         <Image src={userImage} alt="user-image" width={40} height={40} className="rounded-full" />
                         <Link href={'/login'} className='bg-green-500 text-white font-semibold px-4 py-2 rounded-md h-10 flex items-center justify-center'>
                             Login

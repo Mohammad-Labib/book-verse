@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
          {children}
          <UseMarquee></UseMarquee>
         <Banner></Banner>
+        
         <FeaturedBooks></FeaturedBooks>
        </main>
         
