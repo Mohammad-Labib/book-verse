@@ -2,17 +2,17 @@
 import { authClient } from '@/lib/auth-client';
 import Image from 'next/image';
 import userImage from '@/assets/user-image.jpg'
-import React from 'react';
 
+
+import React from 'react';
 
 const profilePage = () => {
     const userData = authClient.useSession();
     const user = userData.data?.user;
 
-
     console.log(user);
     return (
-       <div className="flex justify-center items-center p-6">
+        <div className="flex justify-center items-center p-6">
   <div className="w-full max-w-md bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
    
     <div className="bg-gradient-to-r from-green-400 to-green-600 p-6 text-center">
@@ -63,5 +63,5 @@ const profilePage = () => {
 };
 
 
-export default profilePage;
 
+export default profilePage;
